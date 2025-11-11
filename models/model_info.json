@@ -1,0 +1,21 @@
+{
+    "model_name": "RandomForestRegressor",
+    "created_on": "2025-11-11T17:00:47.572189",
+    "target_column": "PM2.5",
+    "features": [
+        "PM10",
+        "NO",
+        "NO2",
+        "NOx",
+        "NH3",
+        "CO",
+        "SO2",
+        "O3"
+    ],
+    "metrics": {
+        "mse": 356.5520460806773,
+        "r2": 0.8669056963561437,
+        "n_train": 11426,
+        "n_test": 2857
+    }
+}
